@@ -12,11 +12,11 @@ module.exports = {
         filename: 'bundle.js',
         publicPath: '/'
     },
-    resolve: {
+    resolve: {  
         extensions: ['.js', '.jsx'],
         alias: {
             '@components': path.resolve(__dirname, 'src/components/'),
-            '@styles': patwh.resolve(__dirname, 'src/styles/')
+            '@styles': path.resolve(__dirname, 'src/styles/')
         }
     },
     mode: 'production',
